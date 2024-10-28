@@ -12,6 +12,7 @@
 		DB5B15DE2C9223CA00E5347A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5B15DD2C9223CA00E5347A /* Assets.xcassets */; };
 		DB5B15E12C9223CA00E5347A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DB5B15E02C9223CA00E5347A /* Base */; };
 		DB8365932CCFDAD20066390F /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8365922CCFDAD20066390F /* OnboardingContainerViewController.swift */; };
+		DB8365952CD006DF0066390F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8365942CD006DF0066390F /* OnboardingViewController.swift */; };
 		DB85B7932C94EDBD000BA39F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB85B7922C94EDBD000BA39F /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		DB5B15E02C9223CA00E5347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5B15E22C9223CA00E5347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8365922CCFDAD20066390F /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		DB8365942CD006DF0066390F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DB85B7922C94EDBD000BA39F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				DB8365922CCFDAD20066390F /* OnboardingContainerViewController.swift */,
+				DB8365942CD006DF0066390F /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				DB85B7932C94EDBD000BA39F /* LoginView.swift in Sources */,
 				DB5B15D92C9223C800E5347A /* LoginViewController.swift in Sources */,
+				DB8365952CD006DF0066390F /* OnboardingViewController.swift in Sources */,
 				DB5B15D52C9223C800E5347A /* AppDelegate.swift in Sources */,
 				DB8365932CCFDAD20066390F /* OnboardingContainerViewController.swift in Sources */,
 			);
